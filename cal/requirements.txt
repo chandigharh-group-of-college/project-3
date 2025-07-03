@@ -1,0 +1,78 @@
+# Core dependencies
+PyQt5>=5.15.4
+numpy>=1.20.0
+scipy>=1.6.0
+sympy>=1.8.0
+
+# Image processing
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# OCR dependencies (optional)
+easyocr>=1.4.0
+pytesseract>=0.3.8
+
+# For EasyOCR GPU support (optional)
+tensorflow>=2.4.0
+# or tensorflow-gpu>=2.4.0
+
+# Additional scientific libraries
+matplotlib>=3.4.0
+pandas>=1.2.0
+
+# NEW: AI/NLP Dependencies for SAUNet 4.0 Advanced NLU
+transformers>=4.21.0
+torch>=1.12.0
+spacy>=3.4.0
+datasets>=2.0.0
+tokenizers>=0.13.0
+
+# Voice Recognition & Audio Processing
+speechrecognition>=3.10.0
+pyaudio>=0.2.11
+pydub>=0.25.0
+# pyttsx3>=2.90  # Text-to-speech (optional)
+
+# Advanced ML Image Preprocessing
+opencv-contrib-python>=4.8.0
+scikit-image>=0.21.0
+rembg>=2.0.50  # Background removal
+Pillow>=10.0.0
+# Super-resolution and denoising
+torch>=2.0.0
+torchvision>=0.15.0
+# realesrgan>=0.3.0  # Super-resolution (optional)
+# basicsr>=1.4.2     # Super-resolution toolkit (optional)
+
+# Advanced math language models
+# sentence-transformers>=2.2.0
+# accelerate>=0.12.0
+
+# Optional for GPU acceleration
+# torch>=1.8.0
+# torchvision>=0.9.0 
+
+# AI-Powered Step Generation with ChatGPT
+openai>=1.0.0
+langchain>=0.0.350
+langchain-openai>=0.0.2
+langchain-community>=0.0.10  # Fixed missing import
+python-dotenv>=1.0.0  # For API key management
+tiktoken>=0.5.0       # Token counting for OpenAI
+
+# Enhanced OCR Engines (ChatGPT-like image reading)
+paddleocr>=2.7.0      # Powerful multi-language OCR
+google-cloud-vision>=3.4.0  # Google Cloud Vision API
+azure-cognitiveservices-vision-computervision>=0.9.0  # Azure Computer Vision
+msrest>=0.7.1         # Azure SDK dependency
+
+# Enhanced Voice Recognition (Google Assistant-like)
+openai-whisper>=20231117  # OpenAI Whisper for multi-language speech
+google-cloud-speech>=2.21.0  # Google Cloud Speech-to-Text
+azure-cognitiveservices-speech>=1.32.0  # Azure Speech Services
+pyttsx3>=2.90         # Text-to-speech
+
+# Additional utilities for enhanced features
+requests>=2.31.0      # HTTP requests for APIs
+base64>=0.1.0         # Base64 encoding (usually built-in)
+tempfile>=0.1.0       # Temporary file handling (usually built-in) 

@@ -1,0 +1,22 @@
+
+SAUNet 4.0 Setup Instructions
+
+OCR SETUP:
+1. pip install easyocr opencv-python pillow
+2. For Tesseract: Download from https://github.com/tesseract-ocr/tesseract
+3. pip install pytesseract
+
+VOICE SETUP (Windows):
+1. pip install speechrecognition pyttsx3
+2. For PyAudio:
+   Method 1: pip install pipwin && pipwin install pyaudio
+   Method 2: pip install pyaudio
+3. Check Windows microphone permissions
+
+TROUBLESHOOTING:
+- PyAudio issues: Try different installation methods
+- Microphone not working: Check Windows Device Manager
+- OCR fails: Ensure proper file permissions
+- Import errors: Reinstall packages in clean environment
+
+After installation, run this script again to verify fixes.
