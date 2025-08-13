@@ -1,4 +1,4 @@
-# SAUNet 3.7 Scientific Calculator
+#Scientific Calculator
 
 A comprehensive scientific calculator built with PyQt5 featuring advanced mathematical capabilities, OCR for equations, and step-by-step solutions.
 
@@ -80,4 +80,5 @@ This project is licensed under the MIT License.
 - PyQt5 for the GUI framework
 - SymPy for symbolic mathematics
 - NumPy and SciPy for numerical computations
+
 - Tesseract and EasyOCR for optical character recognition 
